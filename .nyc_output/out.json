@@ -1,0 +1,99 @@
+{
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 12
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 12
+          },
+          "end": {
+            "line": 3,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 18
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 2
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "53767241b09fb0049b2c941a279ea3c412477dff"
+  },
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 13
+        },
+        "end": {
+          "line": 7,
+          "column": 65
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7c8e731bd4cc34f700a6cad6ff919c39f9cdbffb"
+  }
+}

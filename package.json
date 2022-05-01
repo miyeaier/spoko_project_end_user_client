@@ -6,20 +6,23 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "j-tockauth": "^1.2.7",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
+    "semantic-ui-css": "git+https://github.com/Semantic-Org/Semantic-UI-CSS.git",
+    "semantic-ui-react": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "start:silent": "BROWSER=none react-scripts start",
+    "start:silent": "BROWSER=none react-app-rewired start",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cypress": "start-server-and-test start:silent http://localhost:3000 cy:open",
-    "cypress:ci": "start-server-and-test start:silent http://localhost:3000 cy:run"
+    "cypress": "start-server-and-test start:silent http://localhost:3000/ cy:open",
+    "cypress:ci": "start-server-and-test start:silent http://localhost:3000/ cy:run"
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +43,11 @@
     ]
   },
   "devDependencies": {
+    "@cypress/code-coverage": "^3.9.12",
+    "babel-plugin-istanbul": "^6.1.1",
+    "customize-cra": "^1.0.0",
     "cypress": "^9.6.0",
+    "react-app-rewired": "^2.2.1",
     "start-server-and-test": "^1.14.0"
   }
 }
