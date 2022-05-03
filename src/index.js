@@ -1,14 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+//import { Provider } from "react-redux";
+import App from "./App";
+import "semantic-ui-css/semantic.min.css";
+//import configureStore from './state/store/configureStore'
+//import store from "./state/store/configureStore";
+//import { loadStripe } from "@stripe/stripe-js";
+import "./index.css";
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+//const stripeProvider = loadStripe(process.env.REACT_APP_STRIPE_PK_KEY);
+
+//window.store = store;
+
+ReactDOM.render(
+  
+    
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>,
+    
+  
+  document.getElementById("root")
 );
-
-

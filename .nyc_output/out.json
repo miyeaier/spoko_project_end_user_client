@@ -1,25 +1,25 @@
 {
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx",
+  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Nav_bar.jsx": {
+    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Nav_bar.jsx",
     "statementMap": {
       "0": {
         "start": {
-          "line": 3,
-          "column": 12
+          "line": 11,
+          "column": 16
         },
         "end": {
-          "line": 7,
+          "line": 59,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 4,
+          "line": 14,
           "column": 2
         },
         "end": {
-          "line": 6,
-          "column": 3
+          "line": 58,
+          "column": 4
         }
       }
     },
@@ -28,72 +28,37 @@
         "name": "(anonymous_0)",
         "decl": {
           "start": {
-            "line": 3,
-            "column": 12
+            "line": 11,
+            "column": 16
           },
           "end": {
-            "line": 3,
-            "column": 13
+            "line": 11,
+            "column": 17
           }
         },
         "loc": {
           "start": {
-            "line": 3,
-            "column": 18
+            "line": 11,
+            "column": 22
           },
           "end": {
-            "line": 7,
+            "line": 59,
             "column": 1
           }
         },
-        "line": 3
+        "line": 11
       }
     },
     "branchMap": {},
     "s": {
       "0": 1,
-      "1": 2
+      "1": 0
     },
     "f": {
-      "0": 2
+      "0": 0
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "53767241b09fb0049b2c941a279ea3c412477dff"
-  },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 7,
-          "column": 13
-        },
-        "end": {
-          "line": 7,
-          "column": 65
-        }
-      },
-      "1": {
-        "start": {
-          "line": 8,
-          "column": 0
-        },
-        "end": {
-          "line": 12,
-          "column": 2
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 1,
-      "1": 1
-    },
-    "f": {},
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "7c8e731bd4cc34f700a6cad6ff919c39f9cdbffb"
+    "hash": "57ea83bad22b8922607a787c39f59a2b962c8f78"
   }
 }
