@@ -1,6 +1,6 @@
 {
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Nav_bar.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Nav_bar.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Nav_bar.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Nav_bar.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -52,13 +52,161 @@
     "branchMap": {},
     "s": {
       "0": 1,
-      "1": 0
+      "1": 1
     },
     "f": {
-      "0": 0
+      "0": 1
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "57ea83bad22b8922607a787c39f59a2b962c8f78"
+    "hash": "f0bcdac393b554a711406836b0bc16bddfa5932a"
+  },
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Header_image.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Header_image.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 28
+        },
+        "end": {
+          "line": 24,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 28
+          },
+          "end": {
+            "line": 4,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 53
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1
+    },
+    "f": {
+      "0": 1
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4fdd385d9c9c70a23149fe096b8937949c2bdd05"
+  },
+  "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 12
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 12
+          },
+          "end": {
+            "line": 5,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1
+    },
+    "f": {
+      "0": 1
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5776a3c12f867796aa287a5a82c3e8e784ebacee"
+  },
+  "/Users/bulut/2021/spoko_project_end_user_client/src/index.js": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fefb0e8badbea81b8b6f5076163b08be7ac20a21"
   }
 }

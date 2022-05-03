@@ -1,4 +1,4 @@
-import img from "../image/spoko3.jpg";
+import img from "../image/spoko4.jpg";
 import React from "react";
 
 export const Header_image = ({ title, subTitle }) => {
@@ -12,7 +12,7 @@ export const Header_image = ({ title, subTitle }) => {
           backgroundSize: "cover",
         }}
       >
-        <div className="container" style={{ minHeight: "250px" }}>
+        <div className="container" style={{ minHeight: "180px" }}>
           <div className="text-center justify-content-center align-self-center">
             <h1 className="pt-5 pb-3">{title}</h1>
             <h5>{subTitle}</h5>
