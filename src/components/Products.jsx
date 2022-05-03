@@ -14,7 +14,7 @@ const Products = () => {
   }, []);
 
   const productList =
-    products.map[
+    products.map(
       (product) => {
         return (
           <div key={product.id}>
@@ -22,13 +22,11 @@ const Products = () => {
           </div>
         );
       }
-    ];
+    );
 
 
 return (
-  <>
-{productList}
-</>
+  <div data-cy="ProductList">{productList}</div>
 )
 };
 

@@ -1,12 +1,9 @@
 import React from "react";
-import Products from "./components/Products";
-import Header from "./components/Header";
-
+import Products from "./Components/Products";
 const App = () => {
 
   return (
     <div data-cy="products-list">
-      <Header />
       <Products />
     </div>
   );
