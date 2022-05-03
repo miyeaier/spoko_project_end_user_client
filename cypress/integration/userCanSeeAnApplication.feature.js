@@ -1,9 +1,12 @@
-describe('user can see an app', () => {
+describe("interface", () => {
   beforeEach(() => {
-    cy.visit('/', {})
-  })
+    cy.intercept("GET", "**/api/products", {
+      fixture: "products.json",
+    }).as("getProducts");
+    cy.visit("/");
+  });
+  it("successfully renders", () => {
 
-  it('is expected to show app', () => {
-    cy.get('[data-cy=name]').should('contain.text', 'Spoko')
-  })
+    cy.get("[data-cy=header]").should("contain", "Spoko");
 })
+});

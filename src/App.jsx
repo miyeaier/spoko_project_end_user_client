@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Products from "./components/Products";
+import Header from "./components/Header";
 
 const App = () => {
-  return (
-    <div data-cy="name">Spoko</div>
-  )
-}
 
-export default App
+  return (
+    <div data-cy="products-list">
+      <Header />
+      <Products />
+    </div>
+  );
+};
+
+export default App;

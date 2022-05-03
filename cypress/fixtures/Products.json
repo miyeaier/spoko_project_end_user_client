@@ -1,0 +1,27 @@
+{
+  "products": [{
+      "id": 1,
+      "name":"Soccer Shoes",
+      "category":"Shoes",
+      "image": "https://images.pexels.com/photos/7271269/pexels-photo-7271269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": "1100kr",
+      "description": "nike, white,cleated,spiked shoes"
+    },
+    {
+      "id": 2,
+      "name":"soccer",
+      "category":"soccer",
+      "image": "https://images.pexels.com/photos/209841/pexels-photo-209841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": "600kr",
+      "description": "White and Black Soccer Ball "
+    },
+    {
+      "id": 3,
+      "name":"Jersey Shirt",
+      "category":"Shirt",
+      "image": "https://images.pexels.com/photos/159555/soccer-football-athlete-player-159555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "price": "100kr",
+      "description": " Red Nike Jersey Shirt "
+    }
+  ]
+}
