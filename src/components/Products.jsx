@@ -19,6 +19,11 @@ const Products = () => {
         return (
           <div key={product.id}>
             {product.name} -{`${product.price}kr`}
+            <img
+              src={product.image}
+              style={{ height: 200 + "px", width: "auto" }}
+            />
+            {product.description}
           </div>
         );
       }
