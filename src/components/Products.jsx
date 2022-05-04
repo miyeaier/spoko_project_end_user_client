@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Card, Item } from "semantic-ui-react";
 import axios from "axios";
 
 const Products = () => {
@@ -13,26 +14,24 @@ const Products = () => {
     fetchProducts();
   }, []);
 
-  const productList =
-    products.map(
-      (product) => {
-        return (
-          <div key={product.id}>
-            {product.name} -{`${product.price}kr`}
-            <img
-              src={product.image}
-              style={{ height: 200 + "px", width: "auto" }}
-            />
-            {product.description}
-          </div>
-        );
-      }
+  const productlist = products.map((product) => {
+    return (
+      <Card key={product.id}>
+        <Item.Content>
+          <Item.Image
+            size="tiny"
+            src={product.image}
+            style={{ height: 200 + "px", width: "auto" }}
+          />
+          <Item.Header>{product.name}</Item.Header>
+          <Item.Meta> {`${product.price}kr`}</Item.Meta>
+          <Item.Description>{product.description}</Item.Description>
+        </Item.Content>
+      </Card>
     );
+  });
 
-
-return (
-  <div data-cy="ProductList">{productList}</div>
-)
+  return <div data-cy="product-list">{productlist}</div>;
 };
 
 export default Products;

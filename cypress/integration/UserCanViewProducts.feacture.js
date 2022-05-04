@@ -6,5 +6,15 @@ beforeEach(() => {
 });
 
 it("is expected to display a list with 3 items", () => {
-  cy.get("[data-cy=ProductList]").children().should("have.length", 3);
+  cy.get("[data-cy=product-list]").children().should("have.length", 3);
 })
+it("is expected to display the list items display the expected content", () => {
+  cy.get("[data-cy=products-list]").first().should("contain", "Soccer Shoes");
+});
+
+it("is expected that the list items display price", () => {
+  cy.get("[data-cy=products-list]").first().should("contain", "1100");
+});
+it("is expected that the list items display description", () => {
+  cy.get("[data-cy=products-list]").first().should("contain", "Nike,White,Cleated,Spiked Shoes");
+});
