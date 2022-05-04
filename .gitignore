@@ -10,7 +10,7 @@
 
 # production
 /build
-/out.json
+.nyc_output/out.json
 
 # misc
 .DS_Store
