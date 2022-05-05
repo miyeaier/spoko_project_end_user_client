@@ -2,7 +2,10 @@ beforeEach(() => {
   cy.intercept("GET", "**/api/products", {
     fixture: "products.json",
   }).as("getProducts");
-  cy.visit("/");
+ cy.visit("/");
+});
+it('is expected to make a GET request to the API', () => {
+  cy.wait('@getProducts').its('request.method').should('eq', 'GET');
 });
 
 it("is expected to display a list with 3 items", () => {
@@ -17,4 +20,4 @@ it("is expected that the list items display price", () => {
 });
 it("is expected that the list items display description", () => {
   cy.get("[data-cy=products-list]").first().should("contain", "Nike,White,Cleated,Spiked Shoes");
-});
+})
