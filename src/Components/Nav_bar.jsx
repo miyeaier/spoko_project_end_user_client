@@ -1,60 +1,34 @@
-import React from "react";
-import { Menu, Segment} from "semantic-ui-react";
+
+import { Menu, Segment } from "semantic-ui-react";
 import { NavLink, Link } from "react-router-dom";
-// import { useSelector } from "react-redux";
-// import { useNavigate } from "react-router-dom";
-//import Location from "./Location";
-//import LanguageChoice from "./LanguageChoice";
 
 
 
 const Nav_bar = () => {
-  //const { userAuthenticated } = useSelector((state) => state);
-  //const navigate = useNavigate();
+
   return (
-    <Segment inverted>
-      <Menu inverted secondary>
+    <Segment  inverted color="blue" >
+      <Menu inverted secondary >
         <Menu.Item
-          data-cy="current-link"
-          name="Current news"
+          data-cy="home-tab"
+          name="Home"
           as={Link}
           to={{ pathname: "/" }}
         />
         <Menu.Item
-          data-cy="sports-link"
-          name="Sports News"
+          data-cy="Football-tab"
+          name="Football"
           as={NavLink}
-          to={{ pathname: "/sports" }}
+          to={{ pathname: "/football" }}
         />
         <Menu.Item
-          data-cy="business-link"
-          name="Business News"
+          data-cy="golf-tab"
+          name="Golf"
           as={NavLink}
-          to={{ pathname: "/business" }}
+          to={{ pathname: "/golf" }}
         />
-        {/* {(!userAuthenticated && (
-          <Menu.Item
-            data-cy="login-button"
-            name="Login"
-            as={NavLink}
-            to={{ pathname: "/login" }}//
-          />
-        )) || (
-          <>
-            <Menu.Item data-cy="logged-button" name="Logged in" />
-            <Menu.Item
-              data-cy="subscription-button"
-              name="Become a subscriber"
-              onClick={() => navigate("/payment")}
-            />
-          </>
-        )} */}
-      {/* <LanguageChoice/> */}
       </Menu>
-      {/* <Location/> */}
-      
     </Segment>
-    
   );
 };
 
