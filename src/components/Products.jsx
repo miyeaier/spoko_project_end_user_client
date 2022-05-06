@@ -1,18 +1,27 @@
 import React, { useState, useEffect } from "react";
-import { Card, Item } from "semantic-ui-react";
+import { Card, Item, Container, List } from "semantic-ui-react";
+import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
+import "react-toastify/dist/ReactToastify.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
 
   const fetchProducts = async () => {
-    const response = await axios.get("https://reqres.in/api/products");
+    const response = await axios.get("https:/api/products");
     setProducts(response.data.products);
   };
 
   useEffect(() => {
     fetchProducts();
   }, []);
+  const addToOrder = async (id) => {
+    const response = await axios.post("https:/api/orders", {
+      params: { product_id: id },
+    });
+    toast(response.data.message, { toastId: "message-box" });
+    // Need to save order ID here
+  };
 
   const productlist = products.map((product) => {
     return (
@@ -26,12 +35,27 @@ const Products = () => {
           <Item.Header>{product.name}</Item.Header>
           <Item.Meta> {`${product.price}kr`}</Item.Meta>
           <Item.Description>{product.description}</Item.Description>
+          <button
+            data-cy="order-button"
+            onClick={() => addToOrder(product.id)}
+            className="ui button"
+          >
+            {" "}
+            order +
+          </button>
         </Item.Content>
       </Card>
     );
   });
-
-  return <div data-cy="product-list">{productlist}</div>;
+  return (
+    <>
+      <Container>
+        <List inverted id="products-list" size="big">
+          {productlist}
+        </List>
+      </Container>
+      <ToastContainer />
+    </>
+  );
 };
-
 export default Products;
