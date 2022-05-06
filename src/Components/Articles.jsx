@@ -23,7 +23,7 @@ const Articles = () => {
   const articleList = displayArticles(articles).map((article) => {
     return (
       <div key={article.id} style={{ listStyleType: "none" }}>
-        <Grid className="center" columns={3} divided>
+        <Grid columns={3} divided>
           <Grid.Column>
             <Container>
               <div className="content">
@@ -36,8 +36,11 @@ const Articles = () => {
                       size="small"
                     />
                     <div className="newsText">
-                      <span className="title">{article.title}</span>
-                      <br />
+                      <div>
+                        <span className="category">{article.category}</span>
+                        <br/>
+                        <span className="title">{article.title}</span>
+                      </div>
 
                       <div className="lowerNewsText">
                         <div className="description">{article.body}</div>

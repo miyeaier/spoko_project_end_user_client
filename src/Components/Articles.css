@@ -29,15 +29,18 @@
   height: 268px;
 }
 
+.category{
+  font-size: 15px;
+  line-height: 27px;
+  font-family: "Roboto", sans-serif;
+}
 .title {
-  font-size: 22px;
+  font-size: 23px;
   line-height: 27px;
   font-family: "Roboto", sans-serif;
 }
 
-.muted {
-  font-weight: 100;
-}
+
 
 .description {
   font-size: 16px;
