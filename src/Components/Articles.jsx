@@ -37,9 +37,9 @@ const Articles = () => {
                     />
                     <div className="newsText">
                       <div>
-                        <span className="category">{article.category}</span>
+                        <span data-cy = "article-category" className="category">{article.category}</span>
                         <br/>
-                        <span className="title">{article.title}</span>
+                        <span data-cy = "article-title" className="title">{article.title}</span>
                       </div>
 
                       <div className="lowerNewsText">

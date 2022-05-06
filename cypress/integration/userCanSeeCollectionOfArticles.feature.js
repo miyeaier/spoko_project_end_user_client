@@ -11,16 +11,25 @@ describe("user can see a collection of articles", () => {
     cy.wait("@getArticles").its("request.method").should("eq", "GET");
   });
 
-  it("is expected to display a collection of 3 articles", () => {
+  it("is expected to display a collection of 6 articles", () => {
     cy.get("[data-cy=articles-list]").children().should("have.length", 1);
   });
 
-  it("is expected that the first title will be Football and Golf", () => {
+  it("is expected that the first article will be Football category", () => {
     cy.get("[data-cy=articles-list]")
-      .first()
-      .should("contain.text", "Football ");
+      cy.get("[data-cy=article-category]")
+        .first()
+        .should("contain.text", "Football");
   });
-  it("is expected that the last title will be Golf", () => {
-    cy.get("[data-cy=articles-list]").last().should("contain", "golf");
+  it("is expected that the first article title will be FiFa 2022 championship", () => {
+    cy.get("[data-cy=articles-list]");
+    cy.get("[data-cy=article-title]")
+      .first()
+      .should("contain.text", "FiFa 2022 championship");
+  });
+  it("is expected that the last article will be Golf category", () => {
+    cy.get("[data-cy=articles-list]")
+    cy.get("[data-cy=article-category]")
+      .last().should("contain", "Golf");
   });
 });
