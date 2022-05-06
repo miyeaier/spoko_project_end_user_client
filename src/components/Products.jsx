@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Card, Item, Container, List } from "semantic-ui-react";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
+import "react-toastify/dist/ReactToastify.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
 
   const fetchProducts = async () => {
-    const response = await axios.get("https://reqres.in/api/products");
+    const response = await axios.get("https:/api/products");
     setProducts(response.data.products);
   };
 
@@ -15,7 +16,7 @@ const Products = () => {
     fetchProducts();
   }, []);
   const addToOrder = async (id) => {
-    const response = await axios.post("https://reqres.in/api/orders", {
+    const response = await axios.post("https:/api/orders", {
       params: { product_id: id },
     });
     toast(response.data.message, { toastId: "message-box" });
@@ -53,9 +54,8 @@ const Products = () => {
           {productlist}
         </List>
       </Container>
-      <ToastContainer data-cy="message-box" />
+      <ToastContainer />
     </>
   );
 };
-
 export default Products;
