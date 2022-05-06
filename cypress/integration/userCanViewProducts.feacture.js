@@ -2,14 +2,14 @@ beforeEach(() => {
   cy.intercept("GET", "**/api/products", {
     fixture: "products.json",
   }).as("getProducts");
- cy.visit("/");
+  cy.visit("/");
 });
 it('is expected to make a GET request to the API', () => {
   cy.wait('@getProducts').its('request.method').should('eq', 'GET');
 });
 
 it("is expected to display a list with 3 items", () => {
-  cy.get("[data-cy=product-list]").children().should("have.length", 3);
+  cy.get("[data-cy=products-list]").children().should("have.length", 3);
 })
 it("is expected to display the list items display the expected content", () => {
   cy.get("[data-cy=products-list]").first().should("contain", "Soccer Shoes");
