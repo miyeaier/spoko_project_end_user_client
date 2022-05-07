@@ -1,9 +1,9 @@
 describe('user can see an app', () => {
   beforeEach(() => {
-    cy.visit('/', {})
+    cy.visit('/',)
   })
 
   it('is expected to show app', () => {
-    cy.get('[data-cy=name]').should('contain.text', 'Spoko')
+    cy.get('#name').should('contain.text', 'Spoko')
   })
 })
