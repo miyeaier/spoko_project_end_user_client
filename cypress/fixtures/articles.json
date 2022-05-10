@@ -1,0 +1,50 @@
+{
+  "articles": {
+    "football": [
+      {
+        "id": 1,
+        "category":"Football",
+        "title": "FiFa 2022 championship",
+        "body": "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrAaH6V5qnf4s7TXyLyPGpRsznRsO_UDedlhlvz7f2KLUz3_cR6hXGPWC3dC0q4Oc77eg&usqp=CAU"
+      },
+      {
+        "id": 2,
+        "category": "Football",
+        "title": "Luis Diaz is Liverpool's game-changer ",
+        "body": "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiCa_NwBIpsE7Q6vrLF3KORQohaIYQKQn7pw&usqp=CAU"
+      },
+      {
+        "id": 3,
+        "category": "Football",
+        "title": "Coming Fall MFL league",
+        "body": "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPP5i8K5LOSQzkOb_hyyHLRLVby9gj08wmtA&usqp=CAU"
+      }
+    ],
+    "golf": [
+      {
+        "id": 4,
+        "category": "Golf",
+        "title": "Furious'I  can't wait for this trip'",
+        "body": "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSr9Expj3-4okz1ad6rhKeIC4NppgHfcQw2u6gKUkhILUsJNf60nnKN5Nx4N1OqJyqT4k&usqp=CAU"
+      },
+      {
+        "id": 5,
+        "category": "Golf",
+        "title": "Betfred British Masters ",
+        "body": "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Zx7rrtAl3DPZ6TqdEvTuxvIswf5ksAxPvw&usqp=CAU"
+      },
+      {
+        "id": 6,
+        "category": "Golf",
+        "title": "Wells Fargo Championship",
+        "body": "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTpCjuNbVRkR_5GARxavAl0Kv5UNolQVB6QQ&usqp=CAU"
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@ beforeEach(() => {
   cy.intercept("GET", "**/api/products", {
     fixture: "products.json",
   }).as("getProducts");
-  cy.visit("/");
+  cy.visit("/products");
 });
 it('is expected to make a GET request to the API', () => {
   cy.wait('@getProducts').its('request.method').should('eq', 'GET');

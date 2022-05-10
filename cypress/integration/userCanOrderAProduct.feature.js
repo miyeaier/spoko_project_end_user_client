@@ -6,7 +6,7 @@ describe("Order a product", () => {
     cy.intercept("POST", "**/api/orders", {
       fixture: "order.json",
     }).as("Orders.create");
-    cy.visit("/");
+    cy.visit("/products");
     cy.get("[data-cy=order-button]").last().click();
   });
   it("is expected to make a POST request", () => {

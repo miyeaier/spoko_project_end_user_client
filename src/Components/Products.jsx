@@ -50,7 +50,8 @@ const Products = () => {
   return (
     <>
       <Container>
-        <List inverted id="products-list" size="big">
+        <h1 data-cy="name">Spoko</h1>
+        <List inverted data-cy="products-list" size="big">
           {productlist}
         </List>
       </Container>
