@@ -1,6 +1,6 @@
 {
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Navbar.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Navbar.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Navbar.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Navbar.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -51,18 +51,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 8
+      "0": 55,
+      "1": 55
     },
     "f": {
-      "0": 8
+      "0": 55
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "088e07d589165926020478889ce8bb2413cee940"
+    "hash": "3f8c9eca05fa3496ea0a545584bf036191f13ad6"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/HeaderImage.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/HeaderImage.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/HeaderImage.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/HeaderImage.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -113,18 +113,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 8
+      "0": 55,
+      "1": 55
     },
     "f": {
-      "0": 8
+      "0": 55
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "578e62b98730d9e273999abcc1dab0c55f82ba39"
+    "hash": "039d33f463f42fe10499318a20263fc1c9641426"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/initialState.js": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/initialState.js",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/initialState.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/initialState.js",
     "statementMap": {
       "0": {
         "start": {
@@ -140,15 +140,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 8
+      "0": 55
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "da41bf1e760a2326e52aaf4865d86f10d9703b64"
+    "hash": "765acd1f6fab8998ed8b47981f8326370ee150be"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/reducers/rootReducer.js": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/reducers/rootReducer.js",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/state/reducers/rootReducer.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/state/reducers/rootReducer.js",
     "statementMap": {
       "0": {
         "start": {
@@ -276,27 +276,27 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 16,
-      "2": 8,
+      "0": 55,
+      "1": 70,
+      "2": 15,
       "3": 0,
-      "4": 8
+      "4": 55
     },
     "f": {
-      "0": 16
+      "0": 70
     },
     "b": {
       "0": [
-        8,
+        15,
         0,
-        8
+        55
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f974602fc6c25446f43dcf037d1435968ab1b69b"
+    "hash": "5b9354efce030631fba107cef105e4d2c4b99209"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/configureStore.js": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/state/store/configureStore.js",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/configureStore.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/configureStore.js",
     "statementMap": {
       "0": {
         "start": {
@@ -312,15 +312,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 8
+      "0": 55
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "7ccce38705ed3d3a8a0212c3796f6e0085da539d"
+    "hash": "799a3c7f0f83c4dcf42ea82d5432ad5495119f0a"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/SpokoAPI.js": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/SpokoAPI.js",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/SpokoAPI.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/SpokoAPI.js",
     "statementMap": {
       "0": {
         "start": {
@@ -439,27 +439,27 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
+      "0": 55,
+      "1": 55,
       "2": 0,
-      "3": 8
+      "3": 55
     },
     "f": {},
     "b": {
       "0": [
-        8,
+        55,
         0
       ],
       "1": [
-        8,
-        8
+        55,
+        55
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "bfed387499d3d792a6e3ab98fe23fc4620e53d66"
+    "hash": "f4a9a93c8afa240bc6d1006f909c7ba13a739d4d"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/ArticlesAPI.js": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/modules/ArticlesAPI.js",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/ArticlesAPI.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/ArticlesAPI.js",
     "statementMap": {
       "0": {
         "start": {
@@ -753,10 +753,10 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
-      "2": 8,
-      "3": 8,
+      "0": 55,
+      "1": 55,
+      "2": 19,
+      "3": 15,
       "4": 0,
       "5": 0,
       "6": 0,
@@ -768,7 +768,7 @@
       "12": 0
     },
     "f": {
-      "0": 8,
+      "0": 19,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -781,10 +781,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ae66547f0937d67330780cfc4efefe8826e779e3"
+    "hash": "ce207942094991c484c72abca8c40ac2f9cb6687"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Articles.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Articles.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Articles.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Articles.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1065,34 +1065,34 @@
     },
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 24,
-      "2": 24,
-      "3": 16,
-      "4": 16,
-      "5": 16,
-      "6": 16,
-      "7": 16,
-      "8": 16,
-      "9": 8,
-      "10": 16,
-      "11": 48,
-      "12": 16
+      "0": 55,
+      "1": 49,
+      "2": 49,
+      "3": 34,
+      "4": 34,
+      "5": 34,
+      "6": 30,
+      "7": 34,
+      "8": 34,
+      "9": 19,
+      "10": 34,
+      "11": 90,
+      "12": 34
     },
     "f": {
-      "0": 24,
-      "1": 24,
-      "2": 16,
-      "3": 16,
-      "4": 8,
-      "5": 48
+      "0": 49,
+      "1": 49,
+      "2": 34,
+      "3": 30,
+      "4": 19,
+      "5": 90
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f55d744c99acae0070257daf1e65e4c33d983858"
+    "hash": "8eeff0b02438688c9ed7f0d75804ede5a3d9dcde"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/ArticleCategory.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/ArticleCategory.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/ArticleCategory.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/ArticleCategory.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1241,163 +1241,163 @@
     },
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 7,
-      "2": 7,
-      "3": 7,
-      "4": 7,
-      "5": 21,
-      "6": 7
+      "0": 55,
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6
     },
     "f": {
-      "0": 7,
-      "1": 7,
-      "2": 21
+      "0": 6,
+      "1": 6,
+      "2": 6
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "bfc8de4843ff04e23c036387b4c18e389ce4811d"
+    "hash": "87800bf37bdb658d4b72924c25bdc5561af445dd"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Products.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Products.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Products.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Products.jsx",
     "statementMap": {
       "0": {
         "start": {
-          "line": 7,
+          "line": 6,
           "column": 17
         },
         "end": {
-          "line": 61,
+          "line": 60,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 8,
+          "line": 7,
           "column": 34
         },
         "end": {
-          "line": 8,
+          "line": 7,
           "column": 46
         }
       },
       "2": {
         "start": {
-          "line": 10,
+          "line": 9,
           "column": 24
         },
         "end": {
-          "line": 13,
+          "line": 12,
           "column": 3
         }
       },
       "3": {
         "start": {
-          "line": 11,
+          "line": 10,
           "column": 21
         },
         "end": {
-          "line": 11,
-          "column": 59
+          "line": 10,
+          "column": 68
         }
       },
       "4": {
         "start": {
-          "line": 12,
+          "line": 11,
           "column": 4
         },
         "end": {
-          "line": 12,
+          "line": 11,
           "column": 40
         }
       },
       "5": {
         "start": {
-          "line": 15,
+          "line": 14,
           "column": 2
         },
         "end": {
-          "line": 17,
+          "line": 16,
           "column": 9
         }
       },
       "6": {
         "start": {
-          "line": 16,
+          "line": 15,
           "column": 4
         },
         "end": {
-          "line": 16,
+          "line": 15,
           "column": 20
         }
       },
       "7": {
         "start": {
-          "line": 18,
+          "line": 17,
           "column": 21
         },
         "end": {
-          "line": 24,
+          "line": 23,
           "column": 3
         }
       },
       "8": {
         "start": {
-          "line": 19,
+          "line": 18,
           "column": 21
         },
         "end": {
-          "line": 21,
+          "line": 20,
           "column": 6
         }
       },
       "9": {
         "start": {
-          "line": 22,
+          "line": 21,
           "column": 4
         },
         "end": {
-          "line": 22,
+          "line": 21,
           "column": 61
         }
       },
       "10": {
         "start": {
-          "line": 26,
+          "line": 25,
           "column": 22
         },
         "end": {
-          "line": 49,
+          "line": 48,
           "column": 4
         }
       },
       "11": {
         "start": {
-          "line": 27,
+          "line": 26,
           "column": 4
         },
         "end": {
-          "line": 48,
+          "line": 47,
           "column": 6
         }
       },
       "12": {
         "start": {
-          "line": 40,
+          "line": 39,
           "column": 27
         },
         "end": {
-          "line": 40,
+          "line": 39,
           "column": 49
         }
       },
       "13": {
         "start": {
-          "line": 50,
+          "line": 49,
           "column": 2
         },
         "end": {
-          "line": 60,
+          "line": 59,
           "column": 4
         }
       }
@@ -1407,178 +1407,178 @@
         "name": "(anonymous_0)",
         "decl": {
           "start": {
-            "line": 7,
+            "line": 6,
             "column": 17
           },
           "end": {
-            "line": 7,
+            "line": 6,
             "column": 18
           }
         },
         "loc": {
           "start": {
-            "line": 7,
+            "line": 6,
             "column": 23
           },
           "end": {
-            "line": 61,
+            "line": 60,
             "column": 1
           }
         },
-        "line": 7
+        "line": 6
       },
       "1": {
         "name": "(anonymous_1)",
         "decl": {
           "start": {
-            "line": 10,
+            "line": 9,
             "column": 24
           },
           "end": {
-            "line": 10,
+            "line": 9,
             "column": 25
           }
         },
         "loc": {
           "start": {
-            "line": 10,
+            "line": 9,
             "column": 36
           },
           "end": {
-            "line": 13,
+            "line": 12,
             "column": 3
           }
         },
-        "line": 10
+        "line": 9
       },
       "2": {
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 15,
+            "line": 14,
             "column": 12
           },
           "end": {
-            "line": 15,
+            "line": 14,
             "column": 13
           }
         },
         "loc": {
           "start": {
-            "line": 15,
+            "line": 14,
             "column": 18
           },
           "end": {
-            "line": 17,
+            "line": 16,
             "column": 3
           }
         },
-        "line": 15
+        "line": 14
       },
       "3": {
         "name": "(anonymous_3)",
         "decl": {
           "start": {
-            "line": 18,
+            "line": 17,
             "column": 21
           },
           "end": {
-            "line": 18,
+            "line": 17,
             "column": 22
           }
         },
         "loc": {
           "start": {
-            "line": 18,
+            "line": 17,
             "column": 35
           },
           "end": {
-            "line": 24,
+            "line": 23,
             "column": 3
           }
         },
-        "line": 18
+        "line": 17
       },
       "4": {
         "name": "(anonymous_4)",
         "decl": {
           "start": {
-            "line": 26,
+            "line": 25,
             "column": 35
           },
           "end": {
-            "line": 26,
+            "line": 25,
             "column": 36
           }
         },
         "loc": {
           "start": {
-            "line": 26,
+            "line": 25,
             "column": 48
           },
           "end": {
-            "line": 49,
+            "line": 48,
             "column": 3
           }
         },
-        "line": 26
+        "line": 25
       },
       "5": {
         "name": "(anonymous_5)",
         "decl": {
           "start": {
-            "line": 40,
+            "line": 39,
             "column": 21
           },
           "end": {
-            "line": 40,
+            "line": 39,
             "column": 22
           }
         },
         "loc": {
           "start": {
-            "line": 40,
+            "line": 39,
             "column": 27
           },
           "end": {
-            "line": 40,
+            "line": 39,
             "column": 49
           }
         },
-        "line": 40
+        "line": 39
       }
     },
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0
+      "0": 55,
+      "1": 72,
+      "2": 72,
+      "3": 36,
+      "4": 36,
+      "5": 72,
+      "6": 36,
+      "7": 72,
+      "8": 6,
+      "9": 6,
+      "10": 72,
+      "11": 108,
+      "12": 6,
+      "13": 72
     },
     "f": {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0
+      "0": 72,
+      "1": 36,
+      "2": 36,
+      "3": 6,
+      "4": 108,
+      "5": 6
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "11d08647848e6836f3168a18e754cb4af313854b"
+    "hash": "f228d817900a0948484e32427c67ac9f279c4d54"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Footer.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/Components/Footer.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Footer.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Footer.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1629,18 +1629,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 8
+      "0": 55,
+      "1": 55
     },
     "f": {
-      "0": 8
+      "0": 55
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3dc2abc188f867138f3919ff0db2468ee2663d45"
+    "hash": "9ddc05699b464e5d1dc90587d657db3f84dcaf83"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/App.jsx": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/App.jsx",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1691,18 +1691,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 16
+      "0": 55,
+      "1": 70
     },
     "f": {
-      "0": 16
+      "0": 70
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "6f7e0d2db610189d5acd877f8293112f7713a526"
+    "hash": "01f6e90b96553f63af2fcef8cebb55ae32211523"
   },
-  "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/index.js": {
-    "path": "/media/shagufta/extension/craftAcademyDemos/spoko_project_end_user_client/src/index.js",
+  "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js": {
+    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js",
     "statementMap": {
       "0": {
         "start": {
@@ -1728,12 +1728,12 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 8,
-      "1": 8
+      "0": 55,
+      "1": 55
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "199c7e3f9fa9c49b0972ae4a54dbae478dc5b2cd"
+    "hash": "0b102b611cc7f257a7d703ddfbd73b5424e2b4da"
   }
 }
