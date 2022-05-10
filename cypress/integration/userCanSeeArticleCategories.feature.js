@@ -3,17 +3,12 @@ describe("Visitor can switch to football news category tab", () => {
     cy.intercept("GET", "**/articles", {
       fixture: "articles.json",
     }).as("getArticles");
-
-   
-    cy.visit("/", {
-     
-    });
+    cy.visit("/");
   });
 
   it("is expected to make a GET request to the API", () => {
     cy.wait("@getArticles").its("request.method").should("eq", "GET");
   });
-
 
   it("is expected to display football News header", () => {
     cy.get("[data-cy=football-tab]").should("contain.text", "Football");
