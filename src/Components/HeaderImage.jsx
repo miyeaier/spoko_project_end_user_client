@@ -1,7 +1,7 @@
 import img from "../image/spoko4.jpg";
 import React from "react";
 
-export const Header_image = ({ title, subTitle }) => {
+export const HeaderImage = ({ title, subTitle }) => {
   return (
     <section>
       <div
@@ -22,4 +22,4 @@ export const Header_image = ({ title, subTitle }) => {
     </section>
   );
 };
-export default Header_image;
+export default HeaderImage;

@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import ArticlesAPI from "../modules/ArticlesAPI";
 import { Link } from "react-router-dom";
-import { Container,Image, Grid} from "semantic-ui-react";
-import "./Articles.css";
+import { Container, Image, Grid } from "semantic-ui-react";
+import "./Styling/Articles.css";
 
 const Articles = () => {
   const { articles } = useSelector((state) => state);
@@ -37,9 +37,13 @@ const Articles = () => {
                     />
                     <div className="newsText">
                       <div>
-                        <span data-cy = "article-category" className="category">{article.category}</span>
-                        <br/>
-                        <span data-cy = "article-title" className="title">{article.title}</span>
+                        <span data-cy="article-category" className="category">
+                          {article.category}
+                        </span>
+                        <br />
+                        <span data-cy="article-title" className="title">
+                          {article.title}
+                        </span>
                       </div>
 
                       <div className="lowerNewsText">

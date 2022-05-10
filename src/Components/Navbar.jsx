@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 
 
 
-const Nav_bar = () => {
+const Navbar = () => {
 
   return (
     <Segment  inverted color="blue" >
@@ -32,4 +32,4 @@ const Nav_bar = () => {
   );
 };
 
-export default Nav_bar;
+export default Navbar;
