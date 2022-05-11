@@ -7,7 +7,6 @@ describe("Display products in order", () => {
       fixture: "articles.json",
     })
 
-
   });
 
   
@@ -19,6 +18,7 @@ describe("Display products in order", () => {
         fixture: "orderReview.json",
       }).as("getOrder");
       cy.visit("/");
+      cy.visit("/products");
       cy.get("[data-cy=show-order]").click();
     });
 
@@ -45,7 +45,7 @@ describe("Display products in order", () => {
       cy.intercept("GET", "**/api/orders/**", {
         fixture: "emptyOrder.json",
       }).as("emptyOrder");
-      cy.visit("/");
+      cy.visit("/products");
       cy.get("[data-cy=show-order]").click();
     });
 

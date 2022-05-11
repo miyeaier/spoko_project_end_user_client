@@ -32,7 +32,6 @@ const Navbar = () => {
           name="Shop"
           as={NavLink}
           to={{ pathname: "/products" }
-       
         }
         />  
       </Menu>
