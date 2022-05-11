@@ -15,12 +15,21 @@ const Products = () => {
   useEffect(() => {
     fetchProducts();
   }, []);
+
   const addToOrder = async (id) => {
-    const response = await axios.post("https:reqres.in/api/orders", {
-      params: { product_id: id },
-    });
-    toast(response.data.message, { toastId: "message-box" });
-    // Need to save order ID here
+    const toastSetting = { autoClose: 1500, toastId: "message-box" };
+    if (orderInProgress === false) {
+      const response = await axios.post("https://reqres.in/api/orders", {
+        params: { product_id: id },
+      });
+      setOrderInProgress(true);
+      toast(response.data.message, toastSetting);
+    } else {
+      const response = await axios.put("https://reqres.in/api/orders", {
+        params: { order_id: 1, product_id: id },
+      });
+      toast(response.data.message, toastSetting);
+    }
   };
 
   const productlist = products.map((product) => {
