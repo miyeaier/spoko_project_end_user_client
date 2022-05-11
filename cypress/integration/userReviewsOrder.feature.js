@@ -3,10 +3,18 @@ describe("Display products in order", () => {
     cy.intercept("GET", "**/api/products", {
       fixture: "products.json",
     })
+    cy.intercept("GET", "**/api/articles", {
+      fixture: "articles.json",
+    })
+
+
   });
+
+  
 
   describe("successfully", () => {
     beforeEach(() => {
+
       cy.intercept("GET", "**/api/orders/**", {
         fixture: "orderReview.json",
       }).as("getOrder");

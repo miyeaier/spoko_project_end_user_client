@@ -3,6 +3,7 @@ import { Card, Item, Container, List } from "semantic-ui-react";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 
+
 const Products = () => {
   const [products, setProducts] = useState([]);
 
@@ -48,6 +49,7 @@ const Products = () => {
   });
   return (
     <>
+
       <Container>
         <h1 data-cy="name">Spoko</h1>
         <List inverted data-cy="products-list" size="big">
@@ -58,5 +60,7 @@ const Products = () => {
     </>
   );
 };
+
+
 
 export default Products;

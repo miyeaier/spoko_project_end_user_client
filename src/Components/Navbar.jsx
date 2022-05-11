@@ -27,6 +27,14 @@ const Navbar = () => {
           as={NavLink}
           to={{ pathname: "/golf" }}
         />
+          <Menu.Item
+          data-cy="product-tab"
+          name="Shop"
+          as={NavLink}
+          to={{ pathname: "/products" }
+       
+        }
+        />  
       </Menu>
     </Segment>
   );
