@@ -1,6 +1,6 @@
 {
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Navbar.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Navbar.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Navbar.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Navbar.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -51,18 +51,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 39
+      "0": 68,
+      "1": 68
     },
     "f": {
-      "0": 39
+      "0": 68
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b8427195e9013b2344ab3251e58431ce5f93f5fd"
+    "hash": "d5811d13e4255b1a5d23b8fef81045eeeefad544"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/HeaderImage.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/HeaderImage.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/HeaderImage.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/HeaderImage.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -113,18 +113,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 39
+      "0": 68,
+      "1": 68
     },
     "f": {
-      "0": 39
+      "0": 68
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "039d33f463f42fe10499318a20263fc1c9641426"
+    "hash": "333c8101a23a8960edca2eae14967d0f2992de2b"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/initialState.js": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/initialState.js",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/initialState.js": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/initialState.js",
     "statementMap": {
       "0": {
         "start": {
@@ -140,15 +140,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 39
+      "0": 68
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "765acd1f6fab8998ed8b47981f8326370ee150be"
+    "hash": "3f4c275c93c509de7f42c8f466d8dbcd9c0bde1a"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/state/reducers/rootReducer.js": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/state/reducers/rootReducer.js",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/state/reducers/rootReducer.js": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/state/reducers/rootReducer.js",
     "statementMap": {
       "0": {
         "start": {
@@ -276,27 +276,27 @@
       }
     },
     "s": {
-      "0": 39,
-      "1": 52,
-      "2": 13,
+      "0": 68,
+      "1": 95,
+      "2": 27,
       "3": 0,
-      "4": 39
+      "4": 68
     },
     "f": {
-      "0": 52
+      "0": 95
     },
     "b": {
       "0": [
-        13,
+        27,
         0,
-        39
+        68
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "5b9354efce030631fba107cef105e4d2c4b99209"
+    "hash": "b3a81a7384cd23fa4030cbd658c02aa3cde18b45"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/configureStore.js": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/state/store/configureStore.js",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/configureStore.js": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/state/store/configureStore.js",
     "statementMap": {
       "0": {
         "start": {
@@ -312,15 +312,15 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 39
+      "0": 68
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "799a3c7f0f83c4dcf42ea82d5432ad5495119f0a"
+    "hash": "853babf3469969ed8ddce5f3053227fbd30e86c4"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/SpokoAPI.js": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/SpokoAPI.js",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/modules/SpokoAPI.js": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/modules/SpokoAPI.js",
     "statementMap": {
       "0": {
         "start": {
@@ -439,27 +439,27 @@
       }
     },
     "s": {
-      "0": 39,
-      "1": 39,
+      "0": 68,
+      "1": 68,
       "2": 0,
-      "3": 39
+      "3": 68
     },
     "f": {},
     "b": {
       "0": [
-        39,
+        68,
         0
       ],
       "1": [
-        39,
-        39
+        68,
+        68
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b11c04701486edb8a72a0d88e5b313f06614a4f2"
+    "hash": "818e4b47fefb8300643b19e35fbe95268eca5ff6"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/ArticlesAPI.js": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/modules/ArticlesAPI.js",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/modules/ArticlesAPI.js": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/modules/ArticlesAPI.js",
     "statementMap": {
       "0": {
         "start": {
@@ -753,10 +753,10 @@
       }
     },
     "s": {
-      "0": 39,
-      "1": 39,
-      "2": 13,
-      "3": 13,
+      "0": 68,
+      "1": 68,
+      "2": 27,
+      "3": 27,
       "4": 0,
       "5": 0,
       "6": 0,
@@ -768,7 +768,7 @@
       "12": 0
     },
     "f": {
-      "0": 13,
+      "0": 27,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -781,10 +781,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ce207942094991c484c72abca8c40ac2f9cb6687"
+    "hash": "2cc88d4ac00ac82a461657d3ef121b43de57f38e"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Articles.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Articles.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Articles.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Articles.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1065,34 +1065,34 @@
     },
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 39,
-      "2": 39,
-      "3": 26,
-      "4": 26,
-      "5": 26,
-      "6": 26,
-      "7": 26,
-      "8": 26,
-      "9": 13,
-      "10": 26,
-      "11": 78,
-      "12": 26
+      "0": 68,
+      "1": 81,
+      "2": 81,
+      "3": 54,
+      "4": 54,
+      "5": 54,
+      "6": 54,
+      "7": 54,
+      "8": 54,
+      "9": 27,
+      "10": 54,
+      "11": 162,
+      "12": 54
     },
     "f": {
-      "0": 39,
-      "1": 39,
-      "2": 26,
-      "3": 26,
-      "4": 13,
-      "5": 78
+      "0": 81,
+      "1": 81,
+      "2": 54,
+      "3": 54,
+      "4": 27,
+      "5": 162
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8eeff0b02438688c9ed7f0d75804ede5a3d9dcde"
+    "hash": "99c8116c5bdf43638a8419f82a87821747ab971e"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/ArticleCategory.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/ArticleCategory.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ArticleCategory.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ArticleCategory.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1241,25 +1241,25 @@
     },
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 5,
-      "2": 5,
-      "3": 5,
-      "4": 5,
-      "5": 15,
-      "6": 5
+      "0": 68,
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 18,
+      "6": 6
     },
     "f": {
-      "0": 5,
-      "1": 5,
-      "2": 15
+      "0": 6,
+      "1": 6,
+      "2": 18
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "87800bf37bdb658d4b72924c25bdc5561af445dd"
+    "hash": "a20f5bc1224f8a9549b4225e32ba56317e26a2b2"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/ReviewOrder.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/ReviewOrder.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ReviewOrder.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/ReviewOrder.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1563,39 +1563,39 @@
       }
     },
     "s": {
-      "0": 39,
-      "1": 52,
-      "2": 52,
-      "3": 52,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 52,
-      "10": 0,
-      "11": 52,
+      "0": 68,
+      "1": 96,
+      "2": 96,
+      "3": 96,
+      "4": 7,
+      "5": 7,
+      "6": 1,
+      "7": 1,
+      "8": 6,
+      "9": 96,
+      "10": 18,
+      "11": 96,
       "12": 0,
-      "13": 0
+      "13": 7
     },
     "f": {
-      "0": 52,
-      "1": 0,
-      "2": 0,
+      "0": 96,
+      "1": 7,
+      "2": 18,
       "3": 0,
-      "4": 0
+      "4": 7
     },
     "b": {
       "0": [
-        0,
-        0
+        1,
+        6
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3b9e6c6d92c59b0cc00096bbb590f39f13a2641d"
+    "hash": "7c1bf01eef310d9506d139fa58550fc597bc4aea"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Products.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Products.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Products.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Products.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1886,35 +1886,35 @@
     },
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 52,
-      "2": 52,
-      "3": 26,
-      "4": 26,
-      "5": 52,
-      "6": 26,
-      "7": 52,
+      "0": 68,
+      "1": 82,
+      "2": 82,
+      "3": 41,
+      "4": 41,
+      "5": 82,
+      "6": 41,
+      "7": 82,
       "8": 6,
       "9": 6,
-      "10": 52,
-      "11": 78,
+      "10": 82,
+      "11": 123,
       "12": 6,
-      "13": 52
+      "13": 82
     },
     "f": {
-      "0": 52,
-      "1": 26,
-      "2": 26,
+      "0": 82,
+      "1": 41,
+      "2": 41,
       "3": 6,
-      "4": 78,
+      "4": 123,
       "5": 6
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f35360d0eecbad9662dc26aa24e03f9f8a49e0de"
+    "hash": "3fa1a24d6b12b3b7f46b16055d787815f1afce52"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Footer.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/Components/Footer.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Footer.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/Components/Footer.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1965,18 +1965,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 39
+      "0": 68,
+      "1": 68
     },
     "f": {
-      "0": 39
+      "0": 68
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "9ddc05699b464e5d1dc90587d657db3f84dcaf83"
+    "hash": "36aaf0a96495324d7f32c94eb82eae9b72e011b7"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/App.jsx",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/App.jsx",
     "statementMap": {
       "0": {
         "start": {
@@ -2027,18 +2027,18 @@
     },
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 52
+      "0": 68,
+      "1": 95
     },
     "f": {
-      "0": 52
+      "0": 95
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "141d27ebf116339966b4f11f14c97f0883921f22"
+    "hash": "53225237bcb46787133d06a9969ebcf1691faae5"
   },
-  "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js": {
-    "path": "/Users/gavinsimpson/spoko_project_end_user_client/src/index.js",
+  "/Users/bulut/2021/spoko_project_end_user_client/src/index.js": {
+    "path": "/Users/bulut/2021/spoko_project_end_user_client/src/index.js",
     "statementMap": {
       "0": {
         "start": {
@@ -2064,12 +2064,12 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 39,
-      "1": 39
+      "0": 68,
+      "1": 68
     },
     "f": {},
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d808f8cf5b92ff74fc9a5dac381dbf56cf70254d"
+    "hash": "f29c85c319a6644f6af601526790540fe6e66175"
   }
 }
