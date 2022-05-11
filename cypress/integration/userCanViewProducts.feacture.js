@@ -8,7 +8,7 @@ it('is expected to make a GET request to the API', () => {
   cy.wait('@getProducts').its('request.method').should('eq', 'GET');
 });
 
-it("is expected to display a list with 3 items", () => {
+it("is expected to show a list of products", () => {
   cy.get("[data-cy=products-list]").children().should("have.length", 3);
 })
 it("is expected to display the list items display the expected content", () => {
