@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Card, Item, Container, List } from "semantic-ui-react";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
-
+import ReviewOrder from './ReviewOrder'
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -57,6 +57,7 @@ const Products = () => {
         </List>
       </Container>
       <ToastContainer />
+      <ReviewOrder />
     </>
   );
 };

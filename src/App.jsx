@@ -4,7 +4,6 @@ import HeaderImage from './Components/HeaderImage'
 import Articles from './Components/Articles'
 import ArticleCategory from './Components/ArticleCategory.jsx'
 import Products from './Components/Products'
-import ReviewOrder from './Components/ReviewOrder'
 import { Routes, Route } from 'react-router-dom'
 import Footer from './Components/Footer.jsx'
 
@@ -22,7 +21,7 @@ const App = () => {
         
       </Routes>
 
-      <ReviewOrder />
+
       <Footer />
     </>
   )
