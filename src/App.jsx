@@ -7,6 +7,7 @@ import Products from './Components/Products'
 import { Routes, Route } from 'react-router-dom'
 import Footer from './Components/Footer.jsx'
 
+
 const App = () => {
   return (
     <>
@@ -18,7 +19,6 @@ const App = () => {
         <Route path="/" element={<Articles />} />
         <Route path="/:category" element={<ArticleCategory />} />
         <Route path="/products" element={<Products />} />
-        
       </Routes>
 
 

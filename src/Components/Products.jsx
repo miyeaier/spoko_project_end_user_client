@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Card, Item, Container, List } from "semantic-ui-react";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
-import ReviewOrder from './ReviewOrder'
+import ReviewOrder from './ReviewOrder';
+
 
 const Products = () => {
   const [products, setProducts] = useState([]);
+  const [orderInProgress, setOrderInProgress] = useState(false);
 
   const fetchProducts = async () => {
     const response = await axios.get("https:reqres.in/api/products");
@@ -26,7 +28,7 @@ const Products = () => {
       toast(response.data.message, toastSetting);
     } else {
       const response = await axios.put("https://reqres.in/api/orders", {
-        params: { order_id: 1, product_id: id },
+        params: { order_id: 2, product_id: id },
       });
       toast(response.data.message, toastSetting);
     }
@@ -67,6 +69,7 @@ const Products = () => {
       </Container>
       <ToastContainer />
       <ReviewOrder />
+      
     </>
   );
 };
