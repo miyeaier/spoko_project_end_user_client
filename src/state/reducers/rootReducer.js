@@ -10,7 +10,11 @@ const rootReducer = (state, action) => {
         ...state,
         activeArticle: action.payload,
       };
-
+    case "SET_ORDER":
+      return {
+        ...state,
+        order: action.payload,
+      };
     default:
       return { ...state };
   }

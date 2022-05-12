@@ -2,12 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Card, Item, Container, List } from "semantic-ui-react";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
-import ReviewOrder from './ReviewOrder';
-
+import ReviewOrder from "./ReviewOrder";
+import store from "../state/store/configureStore";
+import { useSelector } from "react-redux";
 
 const Products = () => {
+  const { order } = useSelector((state) => state);
+  const { dispatch } = store;
   const [products, setProducts] = useState([]);
-  const [orderInProgress, setOrderInProgress] = useState(false);
 
   const fetchProducts = async () => {
     const response = await axios.get("https:reqres.in/api/products");
@@ -19,18 +21,19 @@ const Products = () => {
   }, []);
 
   const addToOrder = async (id) => {
-    const toastSetting = { autoClose: 1500, toastId: "message-box" };
-    if (orderInProgress === false) {
+    // const toastSetting = { autoClose: 1500, toastId: "message-box" };
+    if (!order.id) {
       const response = await axios.post("https://reqres.in/api/orders", {
         params: { product_id: id },
       });
-      setOrderInProgress(true);
-      toast(response.data.message, toastSetting);
+      dispatch({ type: "SET_ORDER", payload: response.data.order });
+      toast(response.data.message, { toastId: "message-box-order-create" });
     } else {
       const response = await axios.put("https://reqres.in/api/orders", {
-        params: { order_id: 2, product_id: id },
+        params: { order_id: order.id, product_id: id },
       });
-      toast(response.data.message, toastSetting);
+      dispatch({ type: "SET_ORDER", payload: response.data.order });
+      toast(response.data.message, { toastId: "message-box-order-update" });
     }
   };
 
@@ -60,7 +63,6 @@ const Products = () => {
   });
   return (
     <>
-
       <Container>
         <h1 data-cy="name">Spoko</h1>
         <List inverted data-cy="products-list" size="big">
@@ -69,11 +71,8 @@ const Products = () => {
       </Container>
       <ToastContainer />
       <ReviewOrder />
-      
     </>
   );
 };
-
-
 
 export default Products;
