@@ -1,14 +1,10 @@
-
 import { Menu, Segment } from "semantic-ui-react";
 import { NavLink, Link } from "react-router-dom";
 
-
-
 const Navbar = () => {
-
   return (
-    <Segment  inverted color="blue" >
-      <Menu inverted secondary >
+    <Segment inverted color="blue">
+      <Menu inverted secondary>
         <Menu.Item
           data-cy="home-tab"
           name="Home"
@@ -27,13 +23,12 @@ const Navbar = () => {
           as={NavLink}
           to={{ pathname: "/golf" }}
         />
-          <Menu.Item
+        <Menu.Item
           data-cy="product-tab"
           name="Shop"
           as={NavLink}
-          to={{ pathname: "/products" }
-        }
-        />  
+          to={{ pathname: "/products" }}
+        />
       </Menu>
     </Segment>
   );

@@ -23,15 +23,10 @@ describe("user can add more products to their order", () => {
     cy.wait("@updateOrder");
   });
 
-  // it("is expected to make a PUT request", () => {
-  //   cy.wait("@updateOrder").its("request.method").should("eq", "PUT");
-  // });
-
   it("is expected to display a message when another product is added", () => {
     cy.get("#message-box-order-update").should(
       "contain.text",
-      "Soccer Shoes was added to your order"
-    );
+      "Soccer Shoes was added to your order");
   });
 
   it("is expected to show 3 products on the order", () => {
