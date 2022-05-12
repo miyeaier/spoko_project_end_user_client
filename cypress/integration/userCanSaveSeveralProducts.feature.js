@@ -12,9 +12,12 @@ describe("user can add more products to their order", () => {
     cy.intercept("PUT", "**/api/orders", {
       fixture: "orderUpdate.json",
     }).as("updateOrder")
+    cy.intercept("GET","**/api/orders/**",{
+      fixture:"orderReview.json"
+    }).as("orderReview");
     cy.visit('/')
-      cy.visit('/Products')
-     cy.get("[data-cy=order-button]").last().click();
+    cy.get('[data-cy=product-tab]').click()
+    cy.get("[data-cy=order-button]").last().click();
     cy.wait(5000)
     cy.get("[data-cy=order-button]").first().click();
   });
@@ -23,14 +26,15 @@ describe("user can add more products to their order", () => {
     cy.get("#message-box").should(
       "contain.text",
       "Soccer Shoes was added to your order");
-    });
-    
-    it("is expected to make a PUT request", () => {
+  });
+
+  it("is expected to make a PUT request", () => {
     cy.wait("@updateOrder").its("request.method").should("eq", "PUT");
   });
-it('is expected to show 2 products on the order', () => {
-      
-cy.get('[data-cy=show-order]').click()
-    cy.get('[data-cy=order-list]').children().should('have.length', 2)
+  
+  it.only('is expected to show 3 products on the order', () => {
+    cy.get('[data-cy=show-order]').click()
+    cy.wait(5000)
+    cy.get('[data-cy=order-list]').children().should('have.length', 3)
   })
 });

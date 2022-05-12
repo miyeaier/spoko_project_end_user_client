@@ -19,8 +19,8 @@ const ReviewOrder = () => {
     }
   };
 
-  const orderList = order.products?.map((product) => {
-    return <List.Item key={product.id}>{product.name}</List.Item>;
+  const orderList = order?.products?.map((product) => {
+     return <List.Item key={product.id}>{product.name}</List.Item>;
   });
 
   return (
@@ -40,7 +40,7 @@ const ReviewOrder = () => {
           <List data-cy="order-list">{orderList}</List>
         </Modal.Content>
         <Modal.Actions>
-          <Container data-cy="total-cost"> Total {order.total}kr</Container>
+          <Container data-cy="total-cost"> Total {order?.total}kr</Container>
         </Modal.Actions>
       </Modal>
       <ToastContainer data-cy="message-box" />
