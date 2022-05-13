@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Container, Card} from "semantic-ui-react";
+import { Container, Card } from "semantic-ui-react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 
@@ -14,7 +14,6 @@ const SingleArticle = () => {
   useEffect(() => {
     ArticlesAPI.show(parseInt(params.id));
   }, []);
-  
 
   return (
     <Container text>
