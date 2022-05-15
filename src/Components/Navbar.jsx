@@ -29,6 +29,9 @@ const Navbar = () => {
           as={NavLink}
           to={{ pathname: "/products" }}
         />
+        <>
+        <Menu.Item data-cy="purchase-subscription-button" name="Become a subscriober " />
+        </>
       </Menu>
     </Segment>
   );
